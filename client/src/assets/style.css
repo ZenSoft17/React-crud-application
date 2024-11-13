@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin: 4vh 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 90%;
+  margin: 3vh 0;
+  font-size: 3vh;
+  padding: 0.5em;
+}
+
+button[type="submit"] {
+  padding: 0.5em 1.5em;
+  font-size: 2.5vh;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+button{
+    padding: 0.2vh 0.5vh;
+    font-size: 2.5vh;
+    margin: 0 1vh;
+    cursor: pointer;
+}
+
+th {
+  font-size: 3vh;
+  padding: 1vh;
+}
+
+td{
+    font-size: 2.2vh;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.2vh;
+}
+
+td,
+th {
+  border: 1px solid;
+}
