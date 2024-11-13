@@ -6,3 +6,5 @@ This a example by react crud application, have a api and frontend with react js.
  - The frontend is write in react.js with vite.js as basis.
 
 Note : You should copy the folder in local server and change route endpoints in frontend calls.
+
+DATABASE : the database is in write sql and is in server/db.
